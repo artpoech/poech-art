@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://poech-art.com/sitemap.xml
