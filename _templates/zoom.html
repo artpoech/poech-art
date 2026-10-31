@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{TITLE}} | Abstract Wall Art Print from {{PAINTING}} | POECH ART Digital</title>
+<title>{{SEO_TITLE}}</title>
 <meta name="description" content="{{META_DESCRIPTION}}">
 <link rel="canonical" href="https://poech-art.com/art/{{SLUG}}/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="POECH ART Digital">
-<meta property="og:title" content="{{TITLE}} | Abstract Wall Art Print from {{PAINTING}} | POECH ART Digital">
+<meta property="og:title" content="{{SEO_TITLE}}">
 <meta property="og:description" content="{{META_DESCRIPTION}}">
 <meta property="og:url" content="https://poech-art.com/art/{{SLUG}}/">
 <meta property="og:image" content="https://poech-art.com/assets/img/zooms/large/{{CODE}}.jpg">
@@ -35,7 +35,7 @@
 <div class="wrap">
 <p class="crumbs"><a href="../../index.html">Home</a> / <a href="../../collections/index.html">Collections</a> / <a href="../../collections/{{COLLECTION_SLUG}}/index.html">{{COLLECTION}}</a> / {{TITLE}}</p>
 <div class="art z">
-  <div><div class="ph contain dark" data-open="lightbox" role="button" tabindex="0" aria-label="View larger"><img src="../../assets/img/zooms/large/{{CODE}}.jpg" alt="{{TITLE}}, abstract detail from the painting {{PAINTING}} by POECH ART"></div>
+  <div><div class="ph contain dark" data-open="lightbox" role="button" tabindex="0" aria-label="View larger"><img src="../../assets/img/zooms/large/{{CODE}}.jpg" alt="{{ALT_TEXT}}"></div>
   <p class="zoom-hint">Click the image to view it larger.</p></div>
   <div class="details">
     <h1>{{TITLE}}</h1><p class="code">{{CODE}}</p>
@@ -48,10 +48,11 @@
     <p class="note">Abstract work has no fixed top or bottom. Hang it vertically, horizontally or upside down.</p>
   </div>
 </div>
-<h2>On the wall</h2>
+<h2>See it on the wall</h2>
 <div class="mocks">{{MOCKUPS}}</div>
 <h2>More from {{COLLECTION}}</h2>
-<div class="zgrid">{{RELATED}}</div>
+<div class="zgrid" data-related="{{COLLECTION_SLUG}}" data-exclude="{{CODE}}"></div>
+<nav class="allcols" aria-label="All collections"><span>Explore all collections</span><a class="ln" href="../../collections/radiant-ripples/index.html">Radiant Ripples</a><a class="ln" href="../../collections/radiant-currents/index.html">Radiant Currents</a><a class="ln" href="../../collections/spiral-waves/index.html">Spiral Waves</a><a class="ln" href="../../collections/radiant-echoes/index.html">Radiant Echoes</a><a class="ln" href="../../collections/calming-ripples/index.html">Calming Ripples</a><a class="ln" href="../../collections/resonant-currents/index.html">Resonant Currents</a><a class="ln" href="../../collections/natures-pulse/index.html">Nature&#x27;s Pulse</a><a class="ln" href="../../collections/dynamic-circles/index.html">Dynamic Circles</a><a class="ln" href="../../collections/organized-chaos/index.html">Organized Chaos</a><a class="ln" href="../../collections/fiery-bang/index.html">Fiery Bang!</a></nav>
 </div>
 <dialog id="lightbox" class="lightbox" aria-label="{{TITLE}}, large view"><button class="close" type="button">Close</button><img src="../../assets/img/zooms/large/{{CODE}}.jpg" alt="{{TITLE}}"></dialog>
 </main>
