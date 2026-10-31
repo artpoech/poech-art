@@ -172,8 +172,8 @@ nav.open ul{display:flex}
 .buy .btn{margin:0}
 .note{font-family:var(--sans);font-size:.88rem;color:var(--muted);margin-top:1.4rem;max-width:46ch}
 .origin{border-top:1px solid var(--line);padding:2rem 0 2.5rem;font-family:var(--sans);font-size:.95rem;color:var(--soft)}
-.mocks{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1rem,2vw,1.8rem);padding-bottom:4rem}
-.mocks .ph{aspect-ratio:4/3}
+.mocks{display:grid;grid-template-columns:repeat(5,1fr);gap:clamp(1rem,2vw,1.8rem);padding-bottom:4rem}
+.mocks .ph{aspect-ratio:1/1}
 .art.z{grid-template-columns:5fr 6fr}
 .art.z .ph{aspect-ratio:2/3;max-height:85vh}
 .counter{font-family:var(--sans);font-size:.9rem;color:var(--muted)}
@@ -184,3 +184,8 @@ nav.open ul{display:flex}
 .hero.d .latest{height:100%}
 @media (max-width:980px){.hero.d .banner{min-height:0;aspect-ratio:820/360}}
 @media (max-width:980px){.hero.d{grid-template-columns:1fr}.hero.d .latest .ph{max-width:340px}}
+.details p+p{margin-top:1rem}
+.details .about-print{font-size:1rem;color:var(--muted);border-top:1px solid var(--line);padding-top:1rem;margin-top:1.4rem}
+.details .about-print b{font-family:var(--sans);font-weight:400;color:var(--soft)}
+.allcols{border-top:1px solid var(--line);padding:2.2rem 0 4rem;display:flex;flex-wrap:wrap;gap:.8rem 2rem;font-family:var(--sans);font-size:.95rem}
+.allcols span{width:100%;color:var(--muted);font-size:.85rem}
