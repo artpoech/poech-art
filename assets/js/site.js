@@ -16,7 +16,7 @@
 
   // ---- live status from data/zooms.json ----
   var root=document.body.getAttribute('data-root')||'';
-  if(!document.querySelector('[data-code],[data-latest],[data-recent],[data-count]'))return;
+  if(!document.querySelector('[data-code],[data-latest],[data-recent],[data-count],[data-related]'))return;
   fetch(root+'data/zooms.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(d){
     var z=d.zooms||[], by={};
     z.forEach(function(x){by[x.code]=x});
@@ -31,6 +31,15 @@
     document.querySelectorAll('[data-count]').forEach(function(c){
       var s=c.getAttribute('data-count'),n=live.filter(function(x){return x.collection_slug===s}).length;
       c.textContent=n?n+' of 15 available':'Coming soon';
+    });
+    // zoom pages: "More from" row, live ones first, then coming soon
+    document.querySelectorAll('[data-related]').forEach(function(g){
+      var s=g.getAttribute('data-related'),ex=g.getAttribute('data-exclude');
+      var same=z.filter(function(x){return x.collection_slug===s&&x.code!==ex});
+      var lv=same.filter(function(x){return x.status==='live'&&x.page_url}),sn=same.filter(function(x){return !(x.status==='live'&&x.page_url)});
+      var h='';lv.concat(sn).slice(0,4).forEach(function(x){var on=x.status==='live'&&x.page_url;
+        h+='<a class="tile '+(on?'live':'soon')+'" href="'+root+(on?x.page_url:'collections/'+s+'/index.html')+'"><span class="badge">'+(on?'Available now':'Coming soon')+'</span><div class="ph"><img loading="lazy" src="'+root+'assets/img/zooms/thumb/'+x.code+'.jpg" alt="'+x.title+'"></div><h3>'+x.title+'</h3><p class="meta">'+x.code+'</p></a>'});
+      g.innerHTML=h;
     });
     live.sort(function(a,b){return (b.live_date||'').localeCompare(a.live_date||'')});
     // home hero: latest release
