@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-11-01",
  "zooms": [
   {
    "code": "CB-01H-Z01",
@@ -9,13 +9,13 @@
    "collection_slug": "radiant-ripples",
    "painting": "Radiant Ripples",
    "painting_code": "CB-01H",
-   "status": "coming",
-   "live_date": "",
-   "page_url": "",
+   "status": "live",
+   "live_date": "2026-11-01 18:34",
+   "page_url": "art/tiles-adrift/index.html",
    "stores": {
-    "saatchi": "",
-    "displate": "",
-    "artpal": ""
+    "saatchi": "https://www.saatchiart.com/art/Photography-Tiles-Adrift/2895697/14376407/view",
+    "displate": "https://displate.com/displate/11230127",
+    "artpal": "https://www.ArtPal.com/poechartdigital?i=378137-1&r=378137"
    }
   },
   {
