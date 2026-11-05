@@ -1029,13 +1029,13 @@
    "collection_slug": "calming-ripples",
    "painting": "Calming Ripples",
    "painting_code": "CB-05H",
-   "status": "coming",
-   "live_date": "",
-   "page_url": "",
+   "status": "live",
+   "live_date": "2026-11-05 12:30",
+   "page_url": "art/orange-core/index.html",
    "stores": {
-    "saatchi": "",
-    "displate": "",
-    "artpal": ""
+    "saatchi": "https://www.saatchiart.com/print/Photography-Orange-Core/2895697/14387767/view",
+    "displate": "https://displate.com/displate/11257849",
+    "artpal": "https://www.ArtPal.com/poechartdigital?i=378137-5&r=378137"
    }
   },
   {
