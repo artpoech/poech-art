@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+ <channel>
+  <title>POECH ART Digital - Abstract Wall Art Ideas</title>
+  <link>https://poech-art.com/</link>
+  <atom:link href="https://poech-art.com/feed-rooms.xml" rel="self" type="application/rss+xml"/>
+  <description>Abstract wall art ideas: close-up details of real hand-painted acrylic paintings, shown in digitally mocked-up rooms.</description>
+  <language>en</language>
+  <item>
+   <title>Clockwork Orbit | Orange and Blue Abstract Wall Art Print</title>
+   <link>https://poech-art.com/art/clockwork-orbit/?view=1</link>
+   <guid isPermaLink="false">room-CB-02H-Z01-m1</guid>
+   <pubDate>Fri, 06 Nov 2026 01:43:01 GMT</pubDate>
+   <description>A ring of pale teeth circles a dark center beside a blue chain. An orange and blue abstract wall art print taken from the POECH ART painting Radiant Currents. Orange and blue abstract wall art from the painting Radiant Currents. Room shown is a digital mockup. The artwork is a close-up of a real hand-painted acrylic painting on aluminum.</description>
+   <enclosure url="https://poech-art.com/assets/img/mockups/CB-02H-Z01/1.jpg" length="0" type="image/jpeg"/>
+   <media:content url="https://poech-art.com/assets/img/mockups/CB-02H-Z01/1.jpg" medium="image" type="image/jpeg"/>
+  </item>
+  <item>
+   <title>Tiles Adrift | Red and Turquoise Abstract Wall Art Print</title>
+   <link>https://poech-art.com/art/tiles-adrift/?view=1</link>
+   <guid isPermaLink="false">room-CB-01H-Z01-m1</guid>
+   <pubDate>Fri, 06 Nov 2026 01:42:01 GMT</pubDate>
+   <description>Red and turquoise abstract wall art print: pale tiles drift through cool blue ribbons over a fiery ground. A detail from an original POECH ART painting. Red and turquoise abstract wall art from the painting Radiant Ripples. Room shown is a digital mockup. The artwork is a close-up of a real hand-painted acrylic painting on aluminum.</description>
+   <enclosure url="https://poech-art.com/assets/img/mockups/CB-01H-Z01/1.jpg" length="0" type="image/jpeg"/>
+   <media:content url="https://poech-art.com/assets/img/mockups/CB-01H-Z01/1.jpg" medium="image" type="image/jpeg"/>
+  </item>
+ </channel>
+</rss>
