@@ -1794,13 +1794,13 @@
    "collection_slug": "dynamic-circles",
    "painting": "Dynamic Circles",
    "painting_code": "CB-08H",
-   "status": "coming",
-   "live_date": "",
-   "page_url": "",
+   "status": "live",
+   "live_date": "2026-11-06 18:30",
+   "page_url": "art/arctic-blocks/index.html",
    "stores": {
-    "saatchi": "",
-    "displate": "",
-    "artpal": ""
+    "saatchi": "https://www.saatchiart.com/print/Photography-Arctic-Blocks/2895697/14387783/view",
+    "displate": "https://displate.com/displate/11271559",
+    "artpal": "https://www.ArtPal.com/poechartdigital?i=378137-8&r=378137"
    }
   },
   {
