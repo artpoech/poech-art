@@ -1,0 +1,37 @@
+/* Guides: article layout, figures, diagrams, tables, guide cards */
+.guide{max-width:760px}
+.guide h2{font-family:var(--sans);font-weight:400;font-size:clamp(1.45rem,2.4vw,1.8rem);margin:3.2rem 0 1rem;letter-spacing:.01em}
+.guide h3{font-family:var(--sans);font-weight:500;font-size:1.05rem;margin:1.8rem 0 .5rem}
+.guide p{color:var(--soft);margin-bottom:1.1rem}
+.guide ul,.guide ol{color:var(--soft);margin:0 0 1.2rem 1.2rem}
+.guide li{margin-bottom:.5rem}
+.guide strong{color:var(--paper);font-weight:500}
+.guide a,.gfig figcaption a{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.gfig{margin:2.2rem 0}
+.gfig img{display:block;width:100%;height:auto}
+.gfig figcaption{font-family:var(--sans);font-size:.88rem;color:var(--muted);margin-top:.7rem;line-height:1.5}
+.gdiag{background:#0d0d0c;border:1px solid var(--line);padding:1.4rem}
+.gdiag svg{display:block;width:100%;height:auto}
+.gtable{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:.95rem;margin:1rem 0 1.6rem}
+.gtable th,.gtable td{text-align:left;padding:.7rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+.gtable th{color:var(--muted);font-weight:400;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase}
+.gtable td{color:var(--soft)}
+.gnote{border-left:2px solid var(--line);padding:.2rem 0 .2rem 1.2rem;margin:1.8rem 0}
+.gnote p{margin:0;font-style:italic}
+.gcheck{list-style:none;margin-left:0!important}
+.gcheck li{padding-left:1.8rem;position:relative}
+.gcheck li:before{content:"";position:absolute;left:0;top:.45em;width:.85rem;height:.85rem;border:1px solid var(--muted)}
+.gmeta{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-top:1rem}
+.gfine{font-family:var(--sans);font-size:.82rem;color:var(--muted);margin-top:3rem}
+.glive,.grelated{margin-top:4rem;padding-top:3rem;border-top:1px solid var(--line)}
+.glive h2,.grelated h2{font-weight:300;font-size:clamp(1.6rem,3vw,2.2rem)}
+.gcards{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.5rem,3vw,2.75rem);margin:2rem 0 3rem}
+.gcard{display:block}
+.gcard .ph{aspect-ratio:4/3}
+.gcard .ph img{object-position:50% 22%}
+.gcard h3{display:inline-block;margin-top:1rem;font-size:1.1rem;font-weight:400}
+.ggroup{padding:1rem 0 1rem;border-top:1px solid var(--line)}
+.ggroup .collection-head{padding-top:2.5rem}
+#guides{padding:clamp(3.5rem,7vw,6rem) 0;border-top:1px solid var(--line)}
+@media (max-width:980px){.gcards{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.gcards{grid-template-columns:1fr}.gtable{font-size:.85rem}.gtable th,.gtable td{padding:.55rem .35rem}.gdiag{padding:.6rem}}
