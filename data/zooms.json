@@ -536,13 +536,13 @@
    "collection_slug": "spiral-waves",
    "painting": "Spiral Waves",
    "painting_code": "CB-03H",
-   "status": "coming",
-   "live_date": "",
-   "page_url": "",
+   "status": "live",
+   "live_date": "2026-11-21 15:30",
+   "page_url": "art/yellow-vortex/index.html",
    "stores": {
-    "saatchi": "",
-    "displate": "",
-    "artpal": ""
+    "saatchi": "https://www.saatchiart.com/print/Photography-Yellow-Vortex/2895697/14399331/view",
+    "displate": "https://displate.com/displate/11279539",
+    "artpal": "https://www.ArtPal.com/poechartdigital?i=378137-13&r=378137"
    }
   },
   {
