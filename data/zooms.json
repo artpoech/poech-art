@@ -1301,13 +1301,13 @@
    "collection_slug": "resonant-currents",
    "painting": "Resonant Currents",
    "painting_code": "CB-06H",
-   "status": "coming",
-   "live_date": "",
-   "page_url": "",
+   "status": "live",
+   "live_date": "2026-11-21 18:30",
+   "page_url": "art/berry-cascade/index.html",
    "stores": {
-    "saatchi": "",
-    "displate": "",
-    "artpal": ""
+    "saatchi": "https://www.saatchiart.com/print/Photography-Berry-Cascade/2895697/14399367/view",
+    "displate": "NO",
+    "artpal": "https://www.ArtPal.com/poechartdigital?i=378137-16&r=378137"
    }
   },
   {
