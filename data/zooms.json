@@ -1046,13 +1046,13 @@
    "collection_slug": "calming-ripples",
    "painting": "Calming Ripples",
    "painting_code": "CB-05H",
-   "status": "coming",
-   "live_date": "",
-   "page_url": "",
+   "status": "live",
+   "live_date": "2026-11-21 17:30",
+   "page_url": "art/deep-spiral/index.html",
    "stores": {
-    "saatchi": "",
-    "displate": "",
-    "artpal": ""
+    "saatchi": "https://www.saatchiart.com/print/Photography-Deep-Spiral/2895697/14399357/view",
+    "displate": "NO",
+    "artpal": "https://www.ArtPal.com/poechartdigital?i=378137-15&r=378137"
    }
   },
   {
