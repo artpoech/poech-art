@@ -281,13 +281,13 @@
    "collection_slug": "radiant-currents",
    "painting": "Radiant Currents",
    "painting_code": "CB-02H",
-   "status": "coming",
-   "live_date": "",
-   "page_url": "",
+   "status": "live",
+   "live_date": "2026-11-21 14:30",
+   "page_url": "art/compass-rose/index.html",
    "stores": {
-    "saatchi": "",
-    "displate": "",
-    "artpal": ""
+    "saatchi": "https://www.saatchiart.com/print/Photography-Compass-Rose/2895697/14399319/view",
+    "displate": "NO",
+    "artpal": "https://www.ArtPal.com/poechartdigital?i=378137-12&r=378137"
    }
   },
   {
