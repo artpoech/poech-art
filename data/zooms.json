@@ -2085,13 +2085,13 @@
    "collection_slug": "organized-chaos",
    "painting": "Organized Chaos",
    "painting_code": "CB-09H",
-   "status": "coming",
-   "live_date": "",
-   "page_url": "",
+   "status": "live",
+   "live_date": "2026-11-22 06:30",
+   "page_url": "art/navy-masonry/index.html",
    "stores": {
-    "saatchi": "",
-    "displate": "",
-    "artpal": ""
+    "saatchi": "https://www.saatchiart.com/print/Photography-Navy-Masonry/2895697/14435391/view",
+    "displate": "https://displate.com/displate/11381320",
+    "artpal": "https://www.ArtPal.com/poechartdigital?i=378137-29&r=378137"
    }
   },
   {
