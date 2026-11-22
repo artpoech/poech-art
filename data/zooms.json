@@ -1830,13 +1830,13 @@
    "collection_slug": "dynamic-circles",
    "painting": "Dynamic Circles",
    "painting_code": "CB-08H",
-   "status": "coming",
-   "live_date": "",
-   "page_url": "",
+   "status": "live",
+   "live_date": "2026-11-22 05:30",
+   "page_url": "art/ocean-eye/index.html",
    "stores": {
-    "saatchi": "",
-    "displate": "",
-    "artpal": ""
+    "saatchi": "https://www.saatchiart.com/print/Photography-Ocean-Eye/2895697/14435385/view",
+    "displate": "https://displate.com/displate/11381313",
+    "artpal": "https://www.ArtPal.com/poechartdigital?i=378137-28&r=378137"
    }
   },
   {
