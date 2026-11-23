@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "zooms": [
   {
    "code": "CB-01H-Z01",
@@ -2323,13 +2323,13 @@
    "collection_slug": "fiery-bang",
    "painting": "Fiery Bang!",
    "painting_code": "CB-10H",
-   "status": "coming",
-   "live_date": "",
-   "page_url": "",
+   "status": "live",
+   "live_date": "2026-11-23 15:30",
+   "page_url": "art/ruby-checkers/index.html",
    "stores": {
-    "saatchi": "",
-    "displate": "",
-    "artpal": ""
+    "saatchi": "https://www.saatchiart.com/print/Photography-Ruby-Checkers/2895697/14399401/view",
+    "displate": "NO",
+    "artpal": "https://www.ArtPal.com/poechartdigital?i=378137-20&r=378137"
    }
   },
   {
